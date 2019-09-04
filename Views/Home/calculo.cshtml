@@ -1,0 +1,14 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model PrograLabPC1.Models.Factura;
+<!DOCTYPE html>
+<html>
+    <title>Practica</title>
+<body>
+    <h1><b>Reporte</b><br>
+        <label>Invoice: </label>  @Html.DisplayTextFor(model => model.id) <br>
+        <label>Cliente: </label> @Html.DisplayTextFor(model => model.Name) <br>
+        <label>Subtotal: </label> @Html.DisplayTextFor(model => model.Subtotal) <br>
+        <label>Total: </label> @Html.DisplayTextFor(model => model.Total) <br>
+    </h1><br>
+</body>
+</html>

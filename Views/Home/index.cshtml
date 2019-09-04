@@ -1,0 +1,31 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model PrograLabPC1.Models.Factura;
+
+
+<!DOCTYPE html>
+<html>
+    <title>Practica</title>
+<body>
+    <h1>Invoice</h1><br>
+   
+    <div>
+        <form asp-controller="Home" asp-action="calculo">
+            <label>Cliente: </label><input asp-for="Name"/><br/>
+
+            <label>Producto:  </label>
+            <select asp-for="Product">
+                <option value="p1">Producto1</option>
+                <option value="p2">Producto2</option>
+                <option value="p3">Producto3</option>
+            </select><br>
+
+            <label>Cantidad: </label><input asp-for="Cantidad"/><br/> 
+
+            <label>Fecha: </label><input asp-for="Date"/><br/>
+
+            <input type="submit" value="Registrar"/>
+        </form>
+    </div>
+    
+</body>
+</html>
