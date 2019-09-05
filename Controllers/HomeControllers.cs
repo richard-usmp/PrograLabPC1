@@ -2,7 +2,7 @@ using System;
 using Microsoft.AspNetCore.Mvc;
 using PrograLabPC1.Models;
 
-namespace Practica.Controllers
+namespace PrograLabPC1.Controllers
 {
 
     public class HomeController:Controller{
