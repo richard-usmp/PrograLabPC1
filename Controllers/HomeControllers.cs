@@ -40,7 +40,7 @@ namespace PrograLabPC1.Controllers
             }   
 
             //aleatorio
-            cli.id = rnd.Next(100000, 999999);
+            cli.id = rnd.Next(10000000, 99999999);
             
             cli.Subtotal= sTotal;
             cli.Total = total;
