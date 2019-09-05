@@ -10,6 +10,7 @@ namespace PrograLabPC1.Models
         public String Name {get; set;}
         public String Producto {get; set;}
         public int Cantidad {get; set;}
+        
         [DataType(DataType.Date)]
         public DateTime Date {get; set;}
         public int Subtotal{get; set;}
