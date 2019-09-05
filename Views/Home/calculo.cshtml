@@ -4,11 +4,12 @@
 <html>
     <title>Practica</title>
 <body>
-    <h1><b>Reporte</b><br>
-        <label>Invoice: </label>  @Html.DisplayTextFor(model => model.id) <br>
-        <label>Cliente: </label> @Html.DisplayTextFor(model => model.Name) <br>
-        <label>Subtotal: </label> @Html.DisplayTextFor(model => model.Subtotal) <br>
-        <label>Total: </label> @Html.DisplayTextFor(model => model.Total) <br>
-    </h1><br>
+    <h1><b>Reporte</b></h1>
+    <h3>
+        <label style="text-decoration: underline;">Invoice:</label> @Html.DisplayTextFor(model => model.id) <br>
+        <label style="text-decoration: underline;">Cliente:</label> @Html.DisplayTextFor(model => model.Name) <br>
+        <label style="text-decoration: underline;">Subtotal:</label> @Html.DisplayTextFor(model => model.Subtotal) <br>
+        <label style="text-decoration: underline;">Total:</label> @Html.DisplayTextFor(model => model.Total) <br>
+    </h3>
 </body>
 </html>
